@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+}
+
+header {
+	background: steelblue;
+	margin: 0;
+	padding: 10;
+}
+
+h1 {
+	float: left;
+	margin-top: 0;
+}
+
+nav ul {
+	clear: both;
+}
+nav ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.score-area {
+	float: right;
+	font-size: 1.5em;
+}
+
+.quiz-area {
+	margin: auto;
+	background: skyblue;
+	width: 50%;
+	height: 500px;
+	box-sizing: border-box;
+}
+
+#book-select {
+	margin: auto;
+}
+
+#book-select li {
+	font-size: 0.75em;
+	text-align: center;
+	list-style: none;
+	background: skyblue;
+	width: 25%;
+}
+
+#book-select li:hover {
+	background: steelblue;
+}
+
+#book-select ul {
+	margin: auto;
+}

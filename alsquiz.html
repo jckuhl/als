@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="alscss.css">
+		<title>ALS Study Guide</title>
+	</head>
+	<body>
+		
+		<header>
+			<h1>ALS Study Guide</h1>
+
+			<div class="score-area">Current Score: <span id="score-board">0</span></div>
+
+		
+
+			<nav>
+				<ul>
+					<li><a href="als.html">Home</a></li>
+					<li><a href="">Fill in the Blank</a></li>
+					<li><a href="alsflash.html">Flashcards</a></li>
+				</ul>
+
+			</nav>
+		</header>
+
+		<div id="book-select">
+			<h2>Pick a book:</h2>
+			<ul>
+				<li>Set A Volume 1, Course Foundation</li>
+				<li>Set A Volume 2, Expeditionary Airman</li>
+				<li>Set A Volume 3, Professional Airman</li>
+				<li>Set B Volume 1, Supervisory Communicator</li>
+				<li>Set B Volume 2, Supervisor of Airmen</li>
+				<li>All</li>
+			</ul>
+		</div>
+
+		<div class="primary-content">
+			<div class="quiz-area">
+				<h2>Question:</h2>
+				<span id="question">Question Goes Here (JS provides text)</span>
+				<h2>Answers:</h2>
+				<form>
+					<input type="radio" name="optA" value="optA"><label for="optA" id="answer-a">Option A (JS provides text)</label><br>
+					<input type="radio" name="optA" value="optA"><label for="optA" id="answer-b">Option B (JS provides text)</label><br>
+					<input type="radio" name="optA" value="optA"><label for="optA" id="answer-c">Option C (JS provides text)</label><br>
+					<input type="radio" name="optA" value="optA"><label for="optA" id="answer-d">Option D (JS provides text)</label><br>
+					<button>Submit!</button>
+				</form>
+				<p id="rightwrong">Right/Wrong</p>
+				<p id="citation">JS will provide the source here</p>
+			</div>
+
+
+		</div>
+
+		<footer>
+			
+		</footer>
+
+		<script src="alsjs.js"></script>
+	</body>
+</html>
